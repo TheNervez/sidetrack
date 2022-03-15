@@ -1,0 +1,48 @@
+body {
+  background-color: #7C9AC0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#header {
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  text-align: center;
+  font-size: 35px;
+}
+#slider {
+  width: 30vw;
+  height: 15vw;
+  background: #526583;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 10%;
+  border: solid;
+  border-color: #232d42;
+  border-width: 2vw;
+}
+#timer {
+  width: 40vw;
+  height: 20vw;
+  background: #FFE2A1;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 10%;
+  border: solid;
+  border-color: #CE8850;
+  border-width: 2vw;
+  display:flex;
+  flex-direction: column;
+}
+#countdown {
+  margin: auto;
+  font-size: 60px;
+}
+#currenttask {
+  margin: auto;
+  font-size: 30px;
+}
